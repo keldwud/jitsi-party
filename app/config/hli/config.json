@@ -57,6 +57,14 @@
                 "display": true,
                 "text": "\ud83d\udda4  {count} at The Estate"
             },
+            "numberInHallways": {
+                "display": true,
+                "text": "\ud83d\udda4 {count} haunting the hallways"
+            },
+            "numberInRooms": {
+                "display": false,
+                "text": "\ud83d\udda4 {count} partying"
+            },
             "additionalStats": [
                 {
                     "text": "\ud83d\udda4 {count} reading",
@@ -66,5 +74,14 @@
                 }
             ]
         }
+    },
+    "poke": {
+        "text": "Hex Someone!",
+        "fontAwesomeIcon": "skull",
+        "fromText": "{user} hexes you'",
+        "toText": "Hex!",
+        "unlockText": "You have unlocked the ability to hex",
+        "selfPoke": "Curses!",
+        "unlockAfterMinutes": 0
     }
 }
