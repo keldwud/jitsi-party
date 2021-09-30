@@ -1,6 +1,6 @@
 {
     "debug": true,
-    "page_title": "Faction Hall",
+    "page_title": "HLI.Estate",
     "mapUnlockThreshold": 0,
     "useLocalSessions": false,
     "tooltips": {
@@ -8,54 +8,46 @@
         "map": "Estate Map",
         "events": "Calendar of Events",
         "moderator": "Contact a Caretaker",
-        "poke": "Sing to Someone"
     },
     "startRoom": "foyer",
     "videoDisplayName": "Guest",
     "moderation": {
         "moderatorEmails": [
-            "support@thesatanic.estate"
+            "support@hli.estate"
         ],
         "moderatorNumber": "+14802941991",
         "formDescription": "Need a Caretaker to look into some unsavory behavior? Let us know what's going on, when, where and who is involved. We\u2019ll keep what you tell us private, and we\u2019ll send someone your way as soon as you send this. Please include the time of the incident, the room in which it took place, the relevant username(s), and a brief description of the situation."
     },
     "welcomePage": {
         "avatarSelectionEnabled": true,
-        "backgroundImagePath": "https://tstvhq.s3.amazonaws.com/backgrounds/factionhall/pride/PrideRoomB.png",
+        "backgroundImagePath": "https://s3.us-east-2.amazonaws.com/thesatanic.estate/backgrounds/hli/WELCOMEGRAPHIC.png",
         "enterSpaceButtonText": "Enter",
-        "avatarSelectionText": "Identify Your Cabal",
-        "headerHtml": "<div class='tst'><p>Welcome to</p><h1>Satanic Pride!</h1>"
+        "avatarSelectionText": "Choose Your Avatar",
+        "headerHtml": "<div class='tst'><p>Welcome to</p><h1>HLI.Estate</h1>"
     },
     "avatars": [
         {
             "images": [
-                "https://tstvhq.s3.amazonaws.com/sigils/Faction+Hall/GF1.png",
-                "https://tstvhq.s3.amazonaws.com/sigils/Faction+Hall/GF2.png",
-                "https://tstvhq.s3.amazonaws.com/sigils/Faction+Hall/GF3.png"
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/100pxwhiteshroomdala.png",
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/white100pxplantbeakerpng.png",
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/white100pxtri.png"
             ]
         },
         {
             "images": [
-                "https://tstvhq.s3.amazonaws.com/sigils/Faction+Hall/GF4.png",
-                "https://tstvhq.s3.amazonaws.com/sigils/Faction+Hall/GF5.png",
-                "https://tstvhq.s3.amazonaws.com/sigils/Faction+Hall/GF6.png"
-            ]
-        },
-        {
-            "images": [
-                "https://tstvhq.s3.amazonaws.com/sigils/Faction+Hall/GF7.png",
-                "https://tstvhq.s3.amazonaws.com/sigils/Faction+Hall/GF8.png",
-                "https://tstvhq.s3.amazonaws.com/sigils/Faction+Hall/GF9.png"
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/whiteheart.png",
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/whitemind100px.png",
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/whiteye100px.png"
             ]
         }
     ],
     "specialAvatars": {
         "goodbye": {
             "images": [
-                "https://tstvhq.s3.amazonaws.com/sigils/Andromalius01.png",
-                "https://tstvhq.s3.amazonaws.com/sigils/Bathin01.png",
-                "https://tstvhq.s3.amazonaws.com/sigils/Asmoday01.png",
-                "https://tstvhq.s3.amazonaws.com/sigils/Belial01.png"
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/100pxwhiteshroomdala.png",
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/white100pxtri.png",
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/white100pxplantbeakerpng.png",
+                "https://s3.us-east-2.amazonaws.com/thesatanic.estate/sigils/avatars/whiteheart.png"
             ]
         }
     },
@@ -63,33 +55,9 @@
         "stats": {
             "numberInHouse": {
                 "display": true,
-                "text": "\ud83d\udda4  {count} at Faction Hall"
-            },
-            "numberInHallways": {
-                "display": true,
-                "text": "\ud83d\udda4 {count} haunting the hallways"
-            },
-            "numberInRooms": {
-                "display": false,
-                "text": "\ud83d\udda4 {count} partying"
-            },
-            "additionalStats": [
-                {
-                    "text": "\ud83d\udda4 {count} reading",
-                    "match": [
-                        "library"
-                    ]
+                "text": "\ud83d\udda4  {count} at The Estate"
                 }
             ]
         }
-    },
-    "poke": {
-        "text": "Hex Someone!",
-        "fontAwesomeIcon": "skull",
-        "fromText": "{user} hexes you'",
-        "toText": "Hex!",
-        "unlockText": "You have unlocked the ability to hex",
-        "selfPoke": "Curses!",
-        "unlockAfterMinutes": 0
     }
 }
