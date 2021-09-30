@@ -31,12 +31,12 @@
         {
             "id": "theater",
             "name": "Lightning Talk Theater",
-            "type": "CHATSTREAM",
-            "capacity": 100,
-            "muteRoom": true,
-            "hideVideo": true,
+            "type": "JITSI",
+            "capacity": 50,
+            "muteRoom": false,
+            "hideVideo": false,
             "doorTint": "#000000",
-            "description": "Experts engage in an Olympian Academic Discussion of Drugs in Lightning Talks. Join the conversation: https://us02web.zoom.us/j/82240638634",
+            "description": "Experts engage in an Olympian Academic Discussion of Drugs in Lightning Talks. Join the conversation!",
             "backgroundImage": "https://s3.us-east-2.amazonaws.com/thesatanic.estate/backgrounds/hli/greenyellowwithlogo.png",
             "iframeOptions": {
                 "src": "https://www.youtube.com/embed/6lgkbi9y2vg"
