@@ -2,17 +2,17 @@
     "rooms": [
         {
             "id": "rotunda",
-            "name": "Sylvia Rivera Rotunda",
-            "type": "CHATSTREAM",
-            "capacity": 666,
+            "name": "Research Rotunda",
+            "type": "JITSI",
+            "capacity": 50,
             "doorTint": "#000000",
-            "muteRoom": true,
-            "hideVideo": true,
-            "backgroundImage": "https://tstvhq.s3.amazonaws.com/backgrounds/factionhall/pride/PrideRoomHall.png",
+            "muteRoom": false,
+            "hideVideo": false,
+            "backgroundImage": "https://s3.us-east-2.amazonaws.com/thesatanic.estate/backgrounds/hli/blueredspatterwithlogo.png",
             "iframeOptions": {
                 "src": "https://youtube.com/embed/8ONdcDFUSHg"
             },
-            "description": "We have to be visible. We should not be ashamed of who we are.",
+            "description": "Share your latest findings with other researchers and colleagues.",
             "directions": {
                 "south": "foyer",
                 "east": "theater"
@@ -30,16 +30,16 @@
         },
         {
             "id": "theater",
-            "name": "Oscar Wilde Theater",
+            "name": "Lightning Talk Theater",
             "type": "CHATSTREAM",
-            "capacity": 666,
+            "capacity": 100,
             "muteRoom": true,
             "hideVideo": true,
             "doorTint": "#000000",
-            "description": "We are all in the gutter, but some of us are looking at the stars.",
-            "backgroundImage": "https://tstvhq.s3.amazonaws.com/backgrounds/factionhall/pride/PrideRoomZ.png",
+            "description": "Experts engage in an Olympian Academic Discussion of Drugs in Lightning Talks. Join the conversation: https://us02web.zoom.us/j/82240638634",
+            "backgroundImage": "https://s3.us-east-2.amazonaws.com/thesatanic.estate/backgrounds/hli/greenyellowwithlogo.png",
             "iframeOptions": {
-                "src": "https://youtube.com/embed/f40fV1wTyBc"
+                "src": "https://www.youtube.com/embed/6lgkbi9y2vg"
             },
             "directions": {
                 "west": "rotunda"
@@ -56,16 +56,16 @@
         },
         {
             "id": "large-lounge",
-            "name": "Audre Lorde Lounge",
+            "name": "Psychonaut's Parlor",
             "type": "JITSI",
-            "capacity": 666,
+            "capacity": 50,
             "muteRoom": false,
             "hideVideo": false,
-            "backgroundImage": "https://tstvhq.s3.amazonaws.com/backgrounds/factionhall/pride/PrideRoomE.png",
+            "backgroundImage": "https://s3.us-east-2.amazonaws.com/thesatanic.estate/backgrounds/hli/pinkfigure.png",
             "iframeOptions": {
                 "src": "https://youtube.com/embed/D6x1Jk8Hkuc"
             },
-            "description": "It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.",
+            "description": "A chill space to land and lounge in.",
             "directions": {
                 "north": "foyer",
                 "east": "lounge"
@@ -84,13 +84,13 @@
         },
         {
             "id": "foyer",
-            "name": "Marsha P Johnson Foyer",
+            "name": "Pharmacokinetics Foyer",
             "type": "JITSI",
             "capacity": 50,
             "muteRoom": false,
             "hideVideo": false,
-            "backgroundImage": "https://tstvhq.s3.amazonaws.com/backgrounds/factionhall/pride/PrideRoomLounge.png",
-            "description": "Darling, I want my gay rights now.",
+            "backgroundImage": "https://s3.us-east-2.amazonaws.com/thesatanic.estate/backgrounds/hli/pinkpurpleneonwithlogo.png",
+            "description": "Click the map in the bottom left hand corner to explore and the calendar to see what's next.",
             "directions": {
                 "north": "rotunda",
                 "east": "library",
@@ -111,9 +111,14 @@
         },
         {
             "id": "library",
-            "name": "Satanic Archives Library",
-            "type": "IMAGEMAP",
+            "name": "How to Launch an Industry Gallery",
+            "type": "ART",
             "description": "Peruse the archives, courtesy of Grey Faction",
+              "art": {
+                "title": "Podcast Album Art",
+                "artist": "How to Launch an Industry",
+                "src": "https://s3.us-east-2.amazonaws.com/thesatanic.estate/art/SensingPsychedelics.jpg
+            },
             "directions": {
                 "west": "foyer"
             },
@@ -131,13 +136,13 @@
         },
         {
             "id": "lounge",
-            "name": "Adrenochrome Lounge",
-            "type": "CHATSTREAM",
-            "capacity": 666,
+            "name": "Private Consultation Room",
+            "type": "JITSI",
+            "capacity": 2,
             "muteRoom": false,
             "hideVideo": false,
-            "description": "Drink it all in.",
-            "backgroundImage": "https://tstvhq.s3.amazonaws.com/backgrounds/factionhall/pride/PrideRoomF.png",
+            "description": "This two person room allows for a private conversation.",
+            "backgroundImage": "https://s3.us-east-2.amazonaws.com/thesatanic.estate/backgrounds/hli/spatterfigurinewithlogopinkpurple.png",
             "directions": {
                 "west": "large-lounge"
             },
