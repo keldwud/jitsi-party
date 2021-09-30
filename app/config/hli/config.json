@@ -7,7 +7,7 @@
         "chat": "Show/Hide Chat",
         "map": "Estate Map",
         "events": "Calendar of Events",
-        "moderator": "Contact a Caretaker",
+        "moderator": "Contact a Caretaker"
     },
     "startRoom": "foyer",
     "videoDisplayName": "Guest",
@@ -57,7 +57,6 @@
                 "display": true,
                 "text": "\ud83d\udda4  {count} at The Estate"
                 }
-            ]
         }
     }
 }
