@@ -67,7 +67,7 @@
             },
             "additionalStats": [
                 {
-                    "text": "\ud83d\udda4 {count} reading",
+                    "text": "\ud83d\udda4 {count} looking at art",
                     "match": [
                         "library"
                     ]
@@ -76,11 +76,11 @@
         }
     },
     "poke": {
-        "text": "Hex Someone!",
+        "text": "Dose Someone!",
         "fontAwesomeIcon": "skull",
-        "fromText": "{user} hexes you'",
-        "toText": "Hex!",
-        "unlockText": "You have unlocked the ability to hex",
+        "fromText": "{user} doses you'",
+        "toText": "Dose!",
+        "unlockText": "You have unlocked the ability to dose",
         "selfPoke": "Curses!",
         "unlockAfterMinutes": 0
     }
