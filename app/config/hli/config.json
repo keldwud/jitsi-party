@@ -56,7 +56,15 @@
             "numberInHouse": {
                 "display": true,
                 "text": "\ud83d\udda4  {count} at The Estate"
+            },
+            "additionalStats": [
+                {
+                    "text": "\ud83d\udda4 {count} reading",
+                    "match": [
+                        "library"
+                    ]
                 }
+            ]
         }
     }
 }
